@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '@/styles/AboutPage.module.css';
 
 const AboutPage = () => {
@@ -5,7 +6,7 @@ const AboutPage = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.profileImageContainer}>
-          <img
+          <Image
             src="/vesika2.jpg"
             className={styles.profileImage}
             alt="Mert Bayır"
@@ -19,7 +20,7 @@ const AboutPage = () => {
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I'm a software engineer from Sakarya, Turkiye. I primarily work with C#, Python, and the Java ecosystem.
+              Hey! I am a software engineer from Sakarya, Turkiye. I primarily work with C#, Python, and the Java ecosystem.
             </p>
             <p className={styles.paragraph}>
 I have some image and sound processing projects developed using OpenCV,librosa etc.            </p>
